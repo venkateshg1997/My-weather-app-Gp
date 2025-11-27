@@ -48,13 +48,23 @@ const Nav = () => {
 
   return (
     <div
-      className="d-flex justify-content-center align-items-center vh-100"
-      style={{ minHeight: "fit-content" ,background: "linear-gradient(135deg, #4b79a1, #283e51)"   }}
-    >
-      <div
-        className="card shadow-lg border-0 rounded-4"
-        style={{ width: "380px", background: "#1e2a38", color: "white" }}
-      >
+  className="d-flex justify-content-center align-items-center"
+  style={{
+    background: "linear-gradient(135deg, #4b79a1, #283e51)",
+    minHeight: "100vh",
+    padding: "12px"
+  }}
+>
+  <div
+    className="card shadow-lg border-0 rounded-4 w-100"
+    style={{
+      maxWidth: "380px",
+      background: "#1e2a38",
+      color: "white",
+      overflow: "hidden"
+    }}
+  >
+
         <div className="card-body text-center p-4">
 
         
