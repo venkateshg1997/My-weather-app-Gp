@@ -50,7 +50,7 @@ const Nav = () => {
     <div
   className="d-flex justify-content-center align-items-center"
   style={{
-    background: "linear-gradient(135deg, #4b79a1, #283e51)",
+    background: "linear-gradient(135deg, rgba(92, 213, 76, 1), #97df9aff)",
     minHeight: "100vh",
     padding: "12px"
   }}
@@ -59,7 +59,7 @@ const Nav = () => {
     className="card shadow-lg border-0 rounded-4 w-100"
     style={{
       maxWidth: "380px",
-      background: "#1e2a38",
+      background: "#0d6848ff",
       color: "white",
       overflow: "hidden"
     }}
@@ -187,7 +187,7 @@ const Nav = () => {
       
         <div
           className="card-footer text-center border-0 rounded-bottom-4"
-          style={{ background: "#0d1b2a", color: "#90caf9" }}
+          style={{ background: "#052419ff", color: "#90caf9" }}
         >
           <small>Designed  by Venkatesh 🌍</small>
         </div>
